@@ -3,6 +3,9 @@ import blogApp from '../assets/svg/projects/blogApp.jpeg'
 import netflixClone from '../assets/svg/projects/netflixClone.jpeg'
 import quizApp from '../assets/svg/projects/quizApp.jpeg'
 import taskManager from '../assets/svg/projects/taskManager.JPG'
+import foodDelivery from '../assets/svg/projects/foodDelivery.JPG'
+import movieApp from '../assets/svg/projects/movieApp.JPG'
+import sudoko from '../assets/svg/projects/sudoko.JPG'
 
 
 export const projectsData = [
@@ -40,7 +43,7 @@ export const projectsData = [
         tags: ['NextJs', 'JWT', 'Nodejs'],
         code: 'https://github.com/sachinsingh3232/NextJs_Food_Delivery_App',
         demo: 'https://food-delivery-app-green.vercel.app/',
-        image: taskManager
+        image: foodDelivery
     },
     {
         id: 4,
@@ -67,7 +70,7 @@ export const projectsData = [
         tags: ['HTML', 'CSS', 'JS'],
         code: 'https://github.com/sachinsingh3232/Sudoku-Solver',
         demo: 'https://sudoku-solver-iota-indol.vercel.app/',
-        image: taskManager
+        image: sudoko
     },
     {
         id: 8,
@@ -76,7 +79,7 @@ export const projectsData = [
         tags: ['React', 'JS', 'axios'],
         code: 'https://github.com/sachinsingh3232/MovieApp',
         demo: 'https://moviesinf0.netlify.app/',
-        image: taskManager
+        image: movieApp
     }
 ]
 
