@@ -33,7 +33,7 @@ function About() {
                                 </i>
                                 <br />
                                 <br />
-                                My field of Interest's are building new &nbsp;
+                                My field of Interests are building new &nbsp;
                                 <i>
                                     <b className="purple" style={{color:"red"}}>Web Technologies and Products </b> and
                                     also in areas related to{" "}
