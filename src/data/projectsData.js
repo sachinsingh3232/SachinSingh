@@ -6,9 +6,19 @@ import taskManager from '../assets/svg/projects/taskManager.JPG'
 import foodDelivery from '../assets/svg/projects/foodDelivery.JPG'
 import movieApp from '../assets/svg/projects/movieApp.JPG'
 import sudoko from '../assets/svg/projects/sudoko.JPG'
+import face from '../assets/svg/projects/face.JPG'
 
 
 export const projectsData = [
+    {
+        id: 8,
+        projectName: 'FaceDetector-Login',
+        projectDesc: 'Face-Login',
+        tags: ['ReactJs', 'FaceApi.js', 'NodeJs'],
+        code: 'https://github.com/sachinsingh3232/Face-Login',
+        demo: 'https://codebugged-ai-front.vercel.app/',
+        image: face
+    },
     {
         id: 1,
         projectName: 'RealTime ChatApp',
@@ -49,7 +59,7 @@ export const projectsData = [
         id: 4,
         projectName: 'Netflix Clone',
         projectDesc: 'User can sign Up and after login he/she can watch different movies and trailer .',
-        tags: ['React', 'NodeJs', 'MySQL'],
+        tags: ['React', 'NodeJs', 'MongoDb'],
         code: 'https://github.com/sachinsingh3232/BlogApp',
         demo: 'https://netflixclone-frontend.vercel.app',
         image: netflixClone
