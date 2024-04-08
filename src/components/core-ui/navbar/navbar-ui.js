@@ -113,6 +113,24 @@ function NavbarUI({ theme, shortname, classes, handleDrawerOpen, handleDrawerClo
                         </Fade>
 
                         <Fade left>
+                            <NavLink
+                                to='/#education'
+                                smooth={true}
+                                spy='true'
+                                duration={2000}
+                            >
+                                <div className={classes.drawerItem}>
+                                    <HiDocumentText
+                                        className={classes.drawerIcon}
+                                    />
+                                    <span className={classes.drawerLinks}>
+                                        Education
+                                    </span>
+                                </div>
+                            </NavLink>
+                        </Fade>
+
+                        <Fade left>
                             <div className={classes.drawerItem} onClick={changeTheme}>
                                 {isDark ?
                                     <BsFillSunFill className={classes.drawerIcon} />
