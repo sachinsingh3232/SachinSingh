@@ -96,7 +96,7 @@ function NavbarUI({ theme, shortname, classes, handleDrawerOpen, handleDrawerClo
 
                         <Fade left>
                             <NavLink
-                                to='/#resume'
+                                to='/#projects'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -106,7 +106,7 @@ function NavbarUI({ theme, shortname, classes, handleDrawerOpen, handleDrawerClo
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Education
+                                        Projects
                                     </span>
                                 </div>
                             </NavLink>
