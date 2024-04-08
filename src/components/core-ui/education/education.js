@@ -12,7 +12,7 @@ function Education() {
     const { theme } = useContext(ThemeContext);
     return (
         <div style={{ backgroundColor: theme.secondary }}>
-            <Container className="education" id="resume">
+            <Container className="education" id="education">
                 <div className="education-body">
                     <div className="education-image">
                         <AnimationLottie animationPath={education} />
