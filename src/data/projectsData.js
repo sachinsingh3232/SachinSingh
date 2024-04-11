@@ -4,7 +4,7 @@ import netflixClone from '../assets/svg/projects/netflixClone.jpeg'
 import quizApp from '../assets/svg/projects/quizApp.jpeg'
 import taskManager from '../assets/svg/projects/taskManager.JPG'
 import foodDelivery from '../assets/svg/projects/foodDelivery.JPG'
-import weatherApp from '../assets/svg/projects/weatherApp.PNG'
+import weatherApp from '../assets/svg/projects/weatherApp.png'
 import sudoko from '../assets/svg/projects/sudoko.JPG'
 import face from '../assets/svg/projects/face.JPG'
 
