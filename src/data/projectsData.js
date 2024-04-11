@@ -74,6 +74,15 @@ export const projectsData = [
         image: taskManager
     },
     {
+        id: 8,
+        projectName: 'WeatherApp',
+        projectDesc: 'Search city and get the weather details.',
+        tags: ['React', 'google-maps-react', 'axios'],
+        code: 'https://github.com/sachinsingh3232/WeatherApp',
+        demo: 'https://weather32.vercel.app/',
+        image: weatherApp
+    },
+    {
         id: 7,
         projectName: 'Sudoko Solver',
         projectDesc: 'Sudoko',
@@ -82,15 +91,6 @@ export const projectsData = [
         demo: 'https://sudoku-solver-iota-indol.vercel.app/',
         image: sudoko
     },
-    {
-        id: 8,
-        projectName: 'WeatherApp',
-        projectDesc: 'Search city and get the weather details.',
-        tags: ['React', 'google-maps-react', 'axios'],
-        code: 'https://github.com/sachinsingh3232/WeatherApp',
-        demo: 'https://weather32.vercel.app/',
-        image: weatherApp
-    }
 ]
 
 
