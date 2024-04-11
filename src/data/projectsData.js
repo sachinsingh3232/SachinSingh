@@ -4,7 +4,7 @@ import netflixClone from '../assets/svg/projects/netflixClone.jpeg'
 import quizApp from '../assets/svg/projects/quizApp.jpeg'
 import taskManager from '../assets/svg/projects/taskManager.JPG'
 import foodDelivery from '../assets/svg/projects/foodDelivery.JPG'
-import movieApp from '../assets/svg/projects/movieApp.JPG'
+import weatherApp from '../assets/svg/projects/weatherApp.PNG'
 import sudoko from '../assets/svg/projects/sudoko.JPG'
 import face from '../assets/svg/projects/face.JPG'
 
@@ -84,12 +84,12 @@ export const projectsData = [
     },
     {
         id: 8,
-        projectName: 'MovieApp',
-        projectDesc: 'Search movie and get the details.',
-        tags: ['React', 'JS', 'axios'],
-        code: 'https://github.com/sachinsingh3232/MovieApp',
-        demo: 'https://moviesinf0.netlify.app/',
-        image: movieApp
+        projectName: 'WeatherApp',
+        projectDesc: 'Search city and get the weather details.',
+        tags: ['React', 'google-maps-react', 'axios'],
+        code: 'https://github.com/sachinsingh3232/WeatherApp',
+        demo: 'https://weather32.vercel.app/',
+        image: weatherApp
     }
 ]
 
