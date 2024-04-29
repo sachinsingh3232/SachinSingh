@@ -7,7 +7,7 @@ import foodDelivery from '../assets/svg/projects/foodDelivery.JPG'
 import weatherApp from '../assets/svg/projects/weatherApp.png'
 import sudoko from '../assets/svg/projects/sudoko.JPG'
 import face from '../assets/svg/projects/face.JPG'
-import vaidya from '../assets/svg/projects/vaidya.PNG'
+import vaidya from '../assets/svg/projects/vaidya.png'
 
 
 export const projectsData = [
