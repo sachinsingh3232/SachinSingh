@@ -7,9 +7,19 @@ import foodDelivery from '../assets/svg/projects/foodDelivery.JPG'
 import weatherApp from '../assets/svg/projects/weatherApp.png'
 import sudoko from '../assets/svg/projects/sudoko.JPG'
 import face from '../assets/svg/projects/face.JPG'
+import vaidya from '../assets/svg/projects/vaidya.PNG'
 
 
 export const projectsData = [
+    {
+        id: 9,
+        projectName: 'Vaidya',
+        projectDesc: 'Online Doctor Consultation App with disease prediction',
+        tags: ['ReactJs', 'socket.io', 'NodeJs','ML'],
+        code: 'https://github.com/sachinsingh3232/Final-Year-Project',
+        demo: 'https://vaidya32.vercel.app/',
+        image: vaidya
+    },
     {
         id: 8,
         projectName: 'FaceDetector-Login',
